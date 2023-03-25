@@ -19,7 +19,7 @@ There are 3 different parameters, designed to mimic the parameters used in [vrc-
 1. Install [HeartRateOnStream](https://play.google.com/store/apps/details?id=com.pezcraft.myapplication) for OBS on both your Wear OS device and Android device.
 2. Download the latest release of HeartRateOnStream-OSC from [Releases](https://github.com/Curtis-VL/HeartRateOnStream-OSC/releases).
 3. Extract all files to a folder and run HeartRateOnStream-OSC.exe.
-4. In the HeartRateOnStream mobile app, edit the connection details to match what is shown HeartRateOnStream-OSC.
+4. In the HeartRateOnStream mobile app, edit the connection details to match what is shown by HeartRateOnStream-OSC.
 5. Click Connect and start the heartrate monitoring in the HeartRateOnStream app on your Wear OS device!
 6. Profit! Hopefully! Make sure OSC is enabled in VRChat in the radial menu! (A world rejoin may be required after this!)
 
