@@ -39,6 +39,8 @@ namespace HeartRateOnStream_OSC {
 
             while (true) {
                 if (Connected) {
+                    OscParameter.SendAvatarParameter("isHRConnected", true);
+
                     // 'Hello' stage.
                     if (stage == 0) {
                         stage++;
@@ -65,7 +67,14 @@ namespace HeartRateOnStream_OSC {
                         OscParameter.SendAvatarParameter("Heartrate", Remap(heartrate, 0, 255, -1, 1));
                         OscParameter.SendAvatarParameter("Heartrate2", Remap(heartrate, 0, 255, 0, 1));
                         OscParameter.SendAvatarParameter("Heartrate3", heartrate);
+
+                        OscParameter.SendAvatarParameter("HR", heartrate);
+                        OscParameter.SendAvatarParameter("isHRActive", true);
                     }
+                }
+                else {
+                    OscParameter.SendAvatarParameter("isHRConnected", false);
+                    OscParameter.SendAvatarParameter("isHRActive", false);
                 }
             }
         }
