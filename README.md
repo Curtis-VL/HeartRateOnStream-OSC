@@ -27,5 +27,5 @@ There are 3 different parameters, designed to mimic the parameters used in [vrc-
 Please see the README of [vrc-osc-miband-hrm](https://github.com/vard88508/vrc-osc-miband-hrm) for an example avatar.
 
 ## Got any issues?
-Feel free to message me on Discord: Curtis#1149
+Feel free to message me on Discord: CurtisVL
 Or, create an issue on here!
