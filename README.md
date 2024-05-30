@@ -20,8 +20,9 @@ There are 3 different parameters, designed to mimic the parameters used in [vrc-
 2. Download the latest release of HeartRateOnStream-OSC from [Releases](https://github.com/Curtis-VL/HeartRateOnStream-OSC/releases).
 3. Extract all files to a folder and run HeartRateOnStream-OSC.exe.
 4. In the HeartRateOnStream mobile app, edit the connection details to match what is shown by HeartRateOnStream-OSC.
-5. Click Connect and start the heartrate monitoring in the HeartRateOnStream app on your Wear OS device!
-6. Profit! Hopefully! Make sure OSC is enabled in VRChat in the radial menu! (A world rejoin may be required after this!)
+5. Follow the instructions in HeartRateOnStream-OSC to complete the setup.
+6. Wait patiently, it can take around 30s for heart rate data to start updating outside of the app. (This seems to be an issue with the app)
+7. Profit! Hopefully! Make sure OSC is enabled in VRChat in the radial menu! (A world rejoin may be required after this!)
 
 ## Example Avatar
 Please see the README of [vrc-osc-miband-hrm](https://github.com/vard88508/vrc-osc-miband-hrm) for an example avatar.
